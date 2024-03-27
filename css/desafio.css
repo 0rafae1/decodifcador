@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,20 +9,50 @@ body{
     height: 100vh;
     box-sizing: border-box;
     background-color: #F3F5FC;
-
 }
 .inicial{
-    padding: 5% 15%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0%;
+    margin: 2%;
 }
-.inicial__logo{
+.inicial__areaEsquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inicial__areaEsquerda__logo{
     width: 120px;
     height: 48px;
 }
-.inicial__area{
+.inicial__areaEsquerda__caixaTexto{
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+.inicial__areaEsquerda__info{
+    display: flex;
+}
+.inicial__areaEsquerda__info__imagemInfo{
+    width: 16px;
+    height: 16px;
+}
+.inicial__areaEsquerda__info__textoInfo{
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+}
+.inicial__areaEsquerda__botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.inicial__areaEsquerda__botoes__navegacao{
+    background-color: #0A3871;
+    font-family: "Inter", sans-serif;
+    color: #F3F5FC;    
+}
+.inicial__areaDireita{
     width: 400px;
     height: 944px;
     justify-content: flex-end;
@@ -28,8 +60,12 @@ body{
     flex-direction: row;
     gap: 40px;
 }
-.inicial__area__mensagem{
+.inicial__areaDireita__areaMensagem{
     display: flex;
+    padding: 0% 8% 0% 8%;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    box-sizing: border-box;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +74,13 @@ body{
     height: 944px;
 }
 
-.inicial__area__mensagem__imagem{
+.inicial__areaDireita__mensagem__imagem{
     width: 336px;
     height: 304px;
+}
+.inicial__areaDireita__mensagem{
+    font-family: "Inter", sans-serif;
+}
+.inicial__areaDireita__mensagemInfo{
+    font-family: "Inter", sans-serif;
 }
