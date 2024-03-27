@@ -29,6 +29,7 @@ body{
 .inicial__areaEsquerda__caixaTexto{
     font-size: 32px;
     font-family: "Inter", sans-serif;
+    color: #0A3871;
 }
 .inicial__areaEsquerda__info{
     display: flex;
@@ -47,10 +48,15 @@ body{
     align-items: center;
     gap: 32px;
 }
-.inicial__areaEsquerda__botoes__navegacao{
+.inicial__areaEsquerda__botoes__cript{
     background-color: #0A3871;
     font-family: "Inter", sans-serif;
-    color: #F3F5FC;    
+    color: #FFFFFF;    
+}
+.inicial__areaEsquerda__botoes__descript{
+    background-color: #D8DFE8;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
 }
 .inicial__areaDireita{
     width: 400px;
@@ -74,13 +80,17 @@ body{
     height: 944px;
 }
 
-.inicial__areaDireita__mensagem__imagem{
+.inicial__areaDireita__areaMensagem__imagem{
     width: 336px;
     height: 304px;
 }
-.inicial__areaDireita__mensagem{
+.inicial__areaDireita__areaMensagem__mensagem{
+    text-align: center;
+    margin: 4%;
     font-family: "Inter", sans-serif;
 }
-.inicial__areaDireita__mensagemInfo{
+.inicial__areaDireita__areaMensagem__mensagemInfo{
+    text-align: center;
     font-family: "Inter", sans-serif;
+    color: #495057;
 }
