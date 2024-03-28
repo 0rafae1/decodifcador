@@ -11,7 +11,6 @@ body{
     background-color: #F3F5FC;
 }
 .inicial{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +20,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.inicial__areaEsquerda__topo{
+    margin-bottom: 180%; /* Adicionar margem inferior para separação */
+}
+.inicial__areaEsquerda__base{
+    margin-top: 50%; /* Adicionar margem superior para separação */
 }
 .inicial__areaEsquerda__logo{
     width: 120px;
@@ -33,6 +38,8 @@ body{
 }
 .inicial__areaEsquerda__info{
     display: flex;
+    padding: 10% 0% 0% 0%;
+    gap: 1%;
 }
 .inicial__areaEsquerda__info__imagemInfo{
     width: 16px;
@@ -47,16 +54,23 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    padding: 5% 0% 20% 0%;
 }
 .inicial__areaEsquerda__botoes__cript{
     background-color: #0A3871;
     font-family: "Inter", sans-serif;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    padding: 12% 50% 12% 50%;
+    border-radius: 30px;
+
 }
 .inicial__areaEsquerda__botoes__descript{
     background-color: #D8DFE8;
     font-family: "Inter", sans-serif;
     color: #0A3871;
+    padding: 12% 50% 12% 50%;
+    border-radius: 30px;
+    border: 1px solid #0A3871;
 }
 .inicial__areaDireita{
     width: 400px;
